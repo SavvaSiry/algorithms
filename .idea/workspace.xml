@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(FindSequence): done">
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="refactor(FindSequence): edit condition">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindSequenceAtEnd.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/StringsInnogramm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindSubStr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindSequence">
+  <component name="RunManager" selected="Application.FindSequenceAtEnd">
     <configuration name="Brackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Brackets" />
       <module name="ya_contest" />
@@ -51,8 +54,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindSequence" />
+    <configuration name="FindSequenceAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindSequenceAtEnd" />
+      <module name="ya_contest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindSubStr" />
       <module name="ya_contest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,7 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindSequence" />
+        <item itemvalue="Application.FindSequenceAtEnd" />
+        <item itemvalue="Application.FindSubStr" />
         <item itemvalue="Application.Brackets" />
         <item itemvalue="Application.VectorLength" />
       </list>
@@ -82,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679580656411</updated>
       <workItem from="1679580657851" duration="12447000" />
-      <workItem from="1679822632429" duration="1671000" />
+      <workItem from="1679822632429" duration="2601000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -98,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679824138248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor(FindSequence): edit condition">
+      <created>1679824358203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679824358203</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="feat(FindSequence): done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(FindSequence): done" />
+    <MESSAGE value="refactor(FindSequence): edit condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(FindSequence): edit condition" />
   </component>
 </project>

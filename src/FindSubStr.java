@@ -1,14 +1,14 @@
 /*
-Дано: строка длинной N
-Найти первое вхождение подстроки X в строку N
-или вывести -1, если X не встретилось.
+*  Дано: строка длинной N
+*  Найти первое вхождение подстроки X в строку N
+*  или вывести -1, если X не встретилось.
 */
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class FindSequence {
+public class FindSubStr {
 
     public static void main(String[] args) throws IOException {
         while (true) {
