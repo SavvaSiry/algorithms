@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(FindSequenceAtEnd): done">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PitCraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RLEFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringsInnogramm.java" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(PitCraft): with Map">
+      <change afterPath="$PROJECT_DIR$/src/FindSumOfTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RLEFunction">
-    <configuration name="Brackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Brackets" />
-      <module name="ya_contest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FindSumOfTwo">
     <configuration name="FindSequenceAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindSequenceAtEnd" />
       <module name="ya_contest" />
@@ -62,6 +52,13 @@
     </configuration>
     <configuration name="FindSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindSubStr" />
+      <module name="ya_contest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindSumOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindSumOfTwo" />
       <module name="ya_contest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindSumOfTwo" />
         <item itemvalue="Application.RLEFunction" />
         <item itemvalue="Application.PitCraft" />
         <item itemvalue="Application.FindSequenceAtEnd" />
         <item itemvalue="Application.FindSubStr" />
-        <item itemvalue="Application.Brackets" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +100,7 @@
       <workItem from="1679822632429" duration="3314000" />
       <workItem from="1679851361849" duration="8749000" />
       <workItem from="1680079743243" duration="644000" />
-      <workItem from="1680261818827" duration="2887000" />
+      <workItem from="1680261818827" duration="5285000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -133,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679825497094</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(RLE): done">
+      <created>1680264828303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680264828303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(PitCraft): with Map">
+      <created>1680264890345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680264890345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,18 +166,11 @@
     <MESSAGE value="feat(FindSequence): done" />
     <MESSAGE value="refactor(FindSequence): edit condition" />
     <MESSAGE value="feat(FindSequenceAtEnd): done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(FindSequenceAtEnd): done" />
+    <MESSAGE value="feat(RLE): done" />
+    <MESSAGE value="feat(PitCraft): with Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(PitCraft): with Map" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RLEFunction.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="blockMap.entrySet().toArray()[0]" />
