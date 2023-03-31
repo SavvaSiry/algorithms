@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(PitCraft): with Map">
-      <change afterPath="$PROJECT_DIR$/src/FindSumOfTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(FindSumOfTwo): done">
+      <change afterPath="$PROJECT_DIR$/src/WordInDic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +41,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindSumOfTwo">
+  <component name="RunManager" selected="Application.WordInDic">
     <configuration name="FindSequenceAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindSequenceAtEnd" />
-      <module name="ya_contest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindSubStr" />
       <module name="ya_contest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,13 +70,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordInDic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordInDic" />
+      <module name="ya_contest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordInDic" />
         <item itemvalue="Application.FindSumOfTwo" />
         <item itemvalue="Application.RLEFunction" />
         <item itemvalue="Application.PitCraft" />
         <item itemvalue="Application.FindSequenceAtEnd" />
-        <item itemvalue="Application.FindSubStr" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +99,7 @@
       <workItem from="1679822632429" duration="3314000" />
       <workItem from="1679851361849" duration="8749000" />
       <workItem from="1680079743243" duration="644000" />
-      <workItem from="1680261818827" duration="5285000" />
+      <workItem from="1680261818827" duration="5842000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680264890345</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(FindSumOfTwo): done">
+      <created>1680286171233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680286171233</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +174,8 @@
     <MESSAGE value="feat(FindSequenceAtEnd): done" />
     <MESSAGE value="feat(RLE): done" />
     <MESSAGE value="feat(PitCraft): with Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(PitCraft): with Map" />
+    <MESSAGE value="feat(FindSumOfTwo): done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(FindSumOfTwo): done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
