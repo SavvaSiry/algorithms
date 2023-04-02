@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(Triangle): done">
-      <change afterPath="$PROJECT_DIR$/src/contestv2part2/MaxInSequence.java" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(MaxInSequence.java): done">
+      <change afterPath="$PROJECT_DIR$/src/contestv2part2/StoreInStreets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contestv2/Dates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contestv2part1/Dates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contestv2/MetroCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contestv2part1/MetroCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contestv2/SchoolLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contestv2part1/SchoolLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contestv2/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contestv2part1/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,35 +45,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxInSequence">
+  <component name="RunManager" selected="Application.StoreInStreets">
     <configuration name="Dates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="contestv2part1.Dates" />
-      <module name="ya_contest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="contestv2part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxInSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contestv2part2.MaxInSequence" />
-      <module name="ya_contest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="contestv2part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MetroCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contestv2part1.MetroCircle" />
       <module name="ya_contest" />
       <extension name="coverage">
         <pattern>
@@ -102,6 +72,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreInStreets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contestv2part2.StoreInStreets" />
+      <module name="ya_contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contestv2part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="contestv2part1.Triangle" />
       <module name="ya_contest" />
@@ -115,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="contestv2part2.MaxInSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contestv2part2.MaxInSequence" />
+      <module name="ya_contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contestv2part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxInSequence" />
+        <item itemvalue="Application.StoreInStreets" />
+        <item itemvalue="Application.contestv2part2.MaxInSequence" />
         <item itemvalue="Application.contestv2part1.Triangle" />
         <item itemvalue="Application.contestv2part1.SchoolLine" />
         <item itemvalue="Application.contestv2part1.Dates" />
-        <item itemvalue="Application.contestv2part1.MetroCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +134,7 @@
       <workItem from="1679851361849" duration="8749000" />
       <workItem from="1680079743243" duration="644000" />
       <workItem from="1680261818827" duration="6904000" />
-      <workItem from="1680426576093" duration="12550000" />
+      <workItem from="1680426576093" duration="15151000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -224,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680455002153</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat(MaxInSequence.java): done">
+      <created>1680455933475</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680455933475</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +257,8 @@
     <MESSAGE value="feat(metro circle): done" />
     <MESSAGE value="feat(school line): done" />
     <MESSAGE value="feat(Triangle): done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Triangle): done" />
+    <MESSAGE value="feat(MaxInSequence.java): done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(MaxInSequence.java): done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
