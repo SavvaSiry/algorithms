@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(WordInDic): done">
-      <change afterPath="$PROJECT_DIR$/src/contestv2/Dates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contestv2/MetroCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contestv2/SchoolLine.java" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(school line): done">
+      <change afterPath="$PROJECT_DIR$/src/contestv2/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SchoolLine">
+  <component name="RunManager" selected="Application.Triangle">
     <configuration name="Dates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="contestv2.Dates" />
       <module name="ya_contest" />
@@ -57,13 +55,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindSumOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindSumOfTwo" />
-      <module name="ya_contest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contestv2.Triangle" />
+      <module name="ya_contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contestv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordInDic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WordInDic" />
       <module name="ya_contest" />
@@ -103,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.SchoolLine" />
         <item itemvalue="Application.Dates" />
         <item itemvalue="Application.MetroCircle" />
         <item itemvalue="Application.WordInDic" />
-        <item itemvalue="Application.FindSumOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +128,7 @@
       <workItem from="1679851361849" duration="8749000" />
       <workItem from="1680079743243" duration="644000" />
       <workItem from="1680261818827" duration="6904000" />
-      <workItem from="1680426576093" duration="7632000" />
+      <workItem from="1680426576093" duration="11893000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -182,7 +186,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680286971026</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(check valid date): done">
+      <created>1680436701694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680436701694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(metro circle): done">
+      <created>1680436718839</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680436718839</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(school line): done">
+      <created>1680436731056</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680436731056</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +233,10 @@
     <MESSAGE value="feat(PitCraft): with Map" />
     <MESSAGE value="feat(FindSumOfTwo): done" />
     <MESSAGE value="feat(WordInDic): done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(WordInDic): done" />
+    <MESSAGE value="feat(check valid date): done" />
+    <MESSAGE value="feat(metro circle): done" />
+    <MESSAGE value="feat(school line): done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(school line): done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
