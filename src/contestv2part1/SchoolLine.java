@@ -1,4 +1,4 @@
-package contestv2;
+package contestv2part1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
