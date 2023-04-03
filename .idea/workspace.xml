@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(StoreInStreets): done">
-      <change afterPath="$PROJECT_DIR$/src/contestv2part2/StudBenches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tink/CutPie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tink/OfficeFloors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tink/SumGb.java" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(tink_SumGb): done">
+      <change afterPath="$PROJECT_DIR$/src/tink/MaxSumWithCorrections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tink/OfficeFloors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tink/OfficeFloors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +46,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OfficeFloors">
+  <component name="RunManager" selected="Application.MaxSumWithCorrections">
     <configuration name="CutPie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tink.CutPie" />
+      <module name="ya_contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSumWithCorrections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tink.MaxSumWithCorrections" />
       <module name="ya_contest" />
       <extension name="coverage">
         <pattern>
@@ -68,19 +79,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StoreInStreets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contestv2part2.StoreInStreets" />
-      <module name="ya_contest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="contestv2part2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSumWithCorrections" />
         <item itemvalue="Application.OfficeFloors" />
         <item itemvalue="Application.CutPie" />
         <item itemvalue="Application.SumGb" />
         <item itemvalue="Application.StudBenches" />
-        <item itemvalue="Application.StoreInStreets" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +136,7 @@
       <workItem from="1680079743243" duration="644000" />
       <workItem from="1680261818827" duration="6904000" />
       <workItem from="1680426576093" duration="16243000" />
-      <workItem from="1680517964568" duration="10105000" />
+      <workItem from="1680517964568" duration="20101000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -238,7 +236,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680458464725</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(StudBenches): done">
+      <created>1680534741051</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680534741051</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat(tink_CutPie): done">
+      <created>1680534761371</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680534761371</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat(tink_OfficeFloors): done">
+      <created>1680534772105</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680534772105</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat(tink_SumGb): done">
+      <created>1680534785196</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680534785196</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,18 +296,13 @@
     <MESSAGE value="feat(Triangle): done" />
     <MESSAGE value="feat(MaxInSequence.java): done" />
     <MESSAGE value="feat(StoreInStreets): done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(StoreInStreets): done" />
+    <MESSAGE value="feat(StudBenches): done" />
+    <MESSAGE value="feat(tink_CutPie): done" />
+    <MESSAGE value="feat(tink_OfficeFloors): done" />
+    <MESSAGE value="feat(tink_SumGb): done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(tink_SumGb): done" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tink/CutPie.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="blockMap.entrySet().toArray()[0]" />
