@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(tink_SumGb): done">
-      <change afterPath="$PROJECT_DIR$/src/tink/MaxSumWithCorrections.java" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(MaxSumWithCorrections): done">
+      <change afterPath="$PROJECT_DIR$/src/tink/GenerateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tink/LineSchool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tink/OfficeFloors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tink/OfficeFloors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,35 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxSumWithCorrections">
+  <component name="RunManager" selected="Application.LineSchool">
     <configuration name="CutPie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tink.CutPie" />
+      <module name="ya_contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tink.GenerateTest" />
+      <module name="ya_contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineSchool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tink.LineSchool" />
       <module name="ya_contest" />
       <extension name="coverage">
         <pattern>
@@ -86,39 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudBenches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contestv2part2.StudBenches" />
-      <module name="ya_contest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="contestv2part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumGb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tink.SumGb" />
-      <module name="ya_contest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LineSchool" />
+        <item itemvalue="Application.GenerateTest" />
         <item itemvalue="Application.MaxSumWithCorrections" />
         <item itemvalue="Application.OfficeFloors" />
         <item itemvalue="Application.CutPie" />
-        <item itemvalue="Application.SumGb" />
-        <item itemvalue="Application.StudBenches" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,7 @@
       <workItem from="1680079743243" duration="644000" />
       <workItem from="1680261818827" duration="6904000" />
       <workItem from="1680426576093" duration="16243000" />
-      <workItem from="1680517964568" duration="20101000" />
+      <workItem from="1680517964568" duration="26331000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680534785196</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat(MaxSumWithCorrections): done">
+      <created>1680545820740</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680545820740</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +307,8 @@
     <MESSAGE value="feat(tink_CutPie): done" />
     <MESSAGE value="feat(tink_OfficeFloors): done" />
     <MESSAGE value="feat(tink_SumGb): done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(tink_SumGb): done" />
+    <MESSAGE value="feat(MaxSumWithCorrections): done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(MaxSumWithCorrections): done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
