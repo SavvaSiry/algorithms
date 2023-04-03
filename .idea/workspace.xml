@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(MaxSumWithCorrections): done">
-      <change afterPath="$PROJECT_DIR$/src/tink/GenerateTest.java" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(GenerateTest): partly done">
       <change afterPath="$PROJECT_DIR$/src/tink/LineSchool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -136,7 +135,7 @@
       <workItem from="1680079743243" duration="644000" />
       <workItem from="1680261818827" duration="6904000" />
       <workItem from="1680426576093" duration="16243000" />
-      <workItem from="1680517964568" duration="26331000" />
+      <workItem from="1680517964568" duration="27461000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -271,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680545820740</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat(GenerateTest): partly done">
+      <created>1680553333366</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680553333366</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +314,8 @@
     <MESSAGE value="feat(tink_OfficeFloors): done" />
     <MESSAGE value="feat(tink_SumGb): done" />
     <MESSAGE value="feat(MaxSumWithCorrections): done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(MaxSumWithCorrections): done" />
+    <MESSAGE value="feat(GenerateTest): partly done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(GenerateTest): partly done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
