@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(GenerateTest): partly done">
-      <change afterPath="$PROJECT_DIR$/src/tink/LineSchool.java" afterDir="false" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="feat(LineSchool): partly done">
+      <change afterPath="$PROJECT_DIR$/src/tink/CutPieBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tink/Lunches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tink/GenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tink/GenerateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LineSchool">
-    <configuration name="CutPie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tink.CutPie" />
+  <component name="RunManager" selected="Application.CutPieBinary">
+    <configuration name="CutPieBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tink.CutPieBinary" />
       <module name="ya_contest" />
       <extension name="coverage">
         <pattern>
@@ -85,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lunches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tink.Lunches" />
+      <module name="ya_contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxSumWithCorrections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tink.MaxSumWithCorrections" />
       <module name="ya_contest" />
@@ -98,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OfficeFloors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tink.OfficeFloors" />
-      <module name="ya_contest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LineSchool" />
+        <item itemvalue="Application.CutPieBinary" />
+        <item itemvalue="Application.Lunches" />
         <item itemvalue="Application.GenerateTest" />
+        <item itemvalue="Application.LineSchool" />
         <item itemvalue="Application.MaxSumWithCorrections" />
-        <item itemvalue="Application.OfficeFloors" />
-        <item itemvalue="Application.CutPie" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +137,9 @@
       <workItem from="1680079743243" duration="644000" />
       <workItem from="1680261818827" duration="6904000" />
       <workItem from="1680426576093" duration="16243000" />
-      <workItem from="1680517964568" duration="27461000" />
+      <workItem from="1680517964568" duration="27672000" />
+      <workItem from="1680600347973" duration="17738000" />
+      <workItem from="1680772614819" duration="12429000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -277,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680553333366</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat(LineSchool): partly done">
+      <created>1680555085309</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680555085309</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +326,8 @@
     <MESSAGE value="feat(tink_SumGb): done" />
     <MESSAGE value="feat(MaxSumWithCorrections): done" />
     <MESSAGE value="feat(GenerateTest): partly done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(GenerateTest): partly done" />
+    <MESSAGE value="feat(LineSchool): partly done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(LineSchool): partly done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
