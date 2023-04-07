@@ -24,6 +24,9 @@ bin/
 
 ### VS Code ###
 .vscode/
+.idea
+.gitignore
+ya_contest.iml
 
 ### Mac OS ###
 .DS_Store
