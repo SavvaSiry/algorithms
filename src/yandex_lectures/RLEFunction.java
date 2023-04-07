@@ -1,4 +1,4 @@
-
+package yandex_lectures;
 /*
 * Дана строка типа: AAAAABBBBCCCCXXXXXYYYYZZZZZZAAAAAD
 * Нужна написать функцию, которая на выходе суммирезирует повторяющиеся символы,
