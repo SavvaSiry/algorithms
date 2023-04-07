@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="change(.gitignore)" />
+    <list default="true" id="657efbc6-a4e8-4a62-93c7-08fd3e6e7a84" name="Changes" comment="refactor(FindSequence): edit condition">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindSequenceAtEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringsInnogramm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindSubStr.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,15 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679580656411</updated>
       <workItem from="1679580657851" duration="12447000" />
-      <workItem from="1679822632429" duration="3314000" />
-      <workItem from="1679851361849" duration="8749000" />
-      <workItem from="1680079743243" duration="644000" />
-      <workItem from="1680261818827" duration="6904000" />
-      <workItem from="1680426576093" duration="16243000" />
-      <workItem from="1680517964568" duration="27672000" />
-      <workItem from="1680600347973" duration="17738000" />
-      <workItem from="1680772614819" duration="13076000" />
-      <workItem from="1680876984921" duration="8915000" />
+      <workItem from="1679822632429" duration="2601000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679600040987</created>
@@ -159,168 +158,7 @@
       <option name="project" value="LOCAL" />
       <updated>1679824358203</updated>
     </task>
-    <task id="LOCAL-00004" summary="feat(FindSequenceAtEnd): done">
-      <created>1679825497094</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1679825497094</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat(RLE): done">
-      <created>1680264828303</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1680264828303</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat(PitCraft): with Map">
-      <created>1680264890345</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1680264890345</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat(FindSumOfTwo): done">
-      <created>1680286171233</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1680286171233</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat(WordInDic): done">
-      <created>1680286971026</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1680286971026</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat(check valid date): done">
-      <created>1680436701694</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1680436701694</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat(metro circle): done">
-      <created>1680436718839</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1680436718839</updated>
-    </task>
-    <task id="LOCAL-00011" summary="feat(school line): done">
-      <created>1680436731056</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1680436731056</updated>
-    </task>
-    <task id="LOCAL-00012" summary="feat(Triangle): done">
-      <created>1680455002153</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1680455002153</updated>
-    </task>
-    <task id="LOCAL-00013" summary="feat(MaxInSequence.java): done">
-      <created>1680455933475</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1680455933475</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat(StoreInStreets): done">
-      <created>1680458464725</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1680458464725</updated>
-    </task>
-    <task id="LOCAL-00015" summary="feat(StudBenches): done">
-      <created>1680534741051</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1680534741051</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat(tink_CutPie): done">
-      <created>1680534761371</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1680534761371</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat(tink_OfficeFloors): done">
-      <created>1680534772105</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1680534772105</updated>
-    </task>
-    <task id="LOCAL-00018" summary="feat(tink_SumGb): done">
-      <created>1680534785196</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1680534785196</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat(MaxSumWithCorrections): done">
-      <created>1680545820740</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1680545820740</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat(GenerateTest): partly done">
-      <created>1680553333366</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1680553333366</updated>
-    </task>
-    <task id="LOCAL-00021" summary="feat(LineSchool): partly done">
-      <created>1680555085309</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1680555085309</updated>
-    </task>
-    <task id="LOCAL-00022" summary="feat(CutPieBinary): start doing">
-      <created>1680787002438</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1680787002438</updated>
-    </task>
-    <task id="LOCAL-00023" summary="feat(GenerateTest): done">
-      <created>1680787017209</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1680787017209</updated>
-    </task>
-    <task id="LOCAL-00024" summary="feat(Lunches): partly done">
-      <created>1680787033735</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1680787033735</updated>
-    </task>
-    <task id="LOCAL-00025" summary="feat(CutPieBinary): done">
-      <created>1680885585457</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1680885585457</updated>
-    </task>
-    <task id="LOCAL-00026" summary="change(.gitignore)">
-      <created>1680885638032</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1680885638032</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,36 +178,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(FindSequence): done" />
     <MESSAGE value="refactor(FindSequence): edit condition" />
-    <MESSAGE value="feat(FindSequenceAtEnd): done" />
-    <MESSAGE value="feat(RLE): done" />
-    <MESSAGE value="feat(PitCraft): with Map" />
-    <MESSAGE value="feat(FindSumOfTwo): done" />
-    <MESSAGE value="feat(WordInDic): done" />
-    <MESSAGE value="feat(check valid date): done" />
-    <MESSAGE value="feat(metro circle): done" />
-    <MESSAGE value="feat(school line): done" />
-    <MESSAGE value="feat(Triangle): done" />
-    <MESSAGE value="feat(MaxInSequence.java): done" />
-    <MESSAGE value="feat(StoreInStreets): done" />
-    <MESSAGE value="feat(StudBenches): done" />
-    <MESSAGE value="feat(tink_CutPie): done" />
-    <MESSAGE value="feat(tink_OfficeFloors): done" />
-    <MESSAGE value="feat(tink_SumGb): done" />
-    <MESSAGE value="feat(MaxSumWithCorrections): done" />
-    <MESSAGE value="feat(GenerateTest): partly done" />
-    <MESSAGE value="feat(LineSchool): partly done" />
-    <MESSAGE value="feat(CutPieBinary): start doing" />
-    <MESSAGE value="feat(GenerateTest): done" />
-    <MESSAGE value="feat(Lunches): partly done" />
-    <MESSAGE value="feat(CutPieBinary): done" />
-    <MESSAGE value="change(.gitignore)" />
-    <option name="LAST_COMMIT_MESSAGE" value="change(.gitignore)" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="blockMap.entrySet().toArray()[0]" />
-      </configuration>
-    </watches-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(FindSequence): edit condition" />
   </component>
 </project>
