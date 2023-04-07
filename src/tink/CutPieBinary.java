@@ -10,26 +10,52 @@ public class CutPieBinary {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         List<xy> list = new ArrayList<>(n);
+        double min = 1000;
+        double max = 0;
         for (int i = 0; i < n; i++) {
-            list.add(new xy(scanner.nextDouble(), scanner.nextDouble()));
+            double x = scanner.nextDouble();
+            double y = scanner.nextDouble();
+            list.add(new xy(x, y));
+            if (x < min) min = x;
+            if (x > max) max = x;
         }
-        separate(list, 1);
+
+        System.out.printf("%.10f",round(binarySearch(list, min, max)));
     }
 
-    public static void separate(List<xy> list, double x) {
+    public static double binarySearch(List<xy> list, double min, double max) {
+        double l = min;
+        double r = max;
+        double m = 0;
+        double half = getSquare(list) / 2;
+        double square = 0;
+        while (round(square) != round(half)) {
+            m = (r - l) / 2 + l;
+            square = getSquare(separate(list, m));
+            if (square > half) r = m;
+            else l = m;
+        }
+        return m;
+    }
+
+    public static double round(double value) {
+        double scale = Math.pow(10, 10);
+        return Math.ceil(value * scale) / scale;
+    }
+
+    public static List<xy> separate(List<xy> list, double x) {
         List<xy> sublistL = new ArrayList<>();
-        List<xy> sublistR = new ArrayList<>();
-        int left;
-        int right;
-        double yl;
-        double yr;
+//        List<xy> sublistR = new ArrayList<>();
+        double yl = 0;
+        double yr = 0;
         double x1;
         double x2;
         double y1;
         double y2;
 
         for (int i = 0; i < list.size(); i++) {
-            if (i != list.size() - 1){
+
+            if (i != list.size() - 1) {
                 x1 = list.get(i).x;
                 x2 = list.get(i + 1).x;
                 y1 = list.get(i).y;
@@ -40,16 +66,28 @@ public class CutPieBinary {
                 y1 = list.get(i).y;
                 y2 = list.get(0).y;
             }
-            if (x1 <= x && x <= x2) {
+
+            if (x1 < x) sublistL.add(list.get(i));
+//            else sublistR.add(list.get(i));
+
+            if (x1 <= x && x < x2) {
                 yl = (x - x1) / (x2 - x1) * (y2 - y1) + y1;
-                left = i;
-            } else if (x <= x1 && x2 <= x) {
+            } else if (x < x1 && x2 <= x) {
                 yr = (x - x1) / (x2 - x1) * (y2 - y1) + y1;
-                right = i;
             }
         }
 
-        sublistL.forEach(xy -> System.out.println(xy.x + " " + xy.y));
+        sublistL.add(new xy(x, yl));
+        sublistL.add(new xy(x, yr));
+        return sublistL;
+//        sublistR.add(0, new xy(x, yl));
+//        sublistR.add(0, new xy(x, yr));
+
+//        System.out.println("Square = " + getSquare(sublistL));
+//        sublistL.forEach(xy -> System.out.println(xy.x + " " + xy.y));
+
+//        System.out.println("Square = " + getSquare(sublistR));
+//        sublistR.forEach(xy -> System.out.println(xy.x + " " + xy.y));
     }
 
 
