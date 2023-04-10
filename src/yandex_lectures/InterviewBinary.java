@@ -1,14 +1,12 @@
 package yandex_lectures;
 
 import java.util.Scanner;
-import java.util.Timer;
 
 public class InterviewBinary {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int k = scanner.nextInt();
-        Timer timer = new Timer();
         long m = System.currentTimeMillis();
         System.out.println(solveDays(n, k));
         System.out.println((double) (System.currentTimeMillis() - m));
