@@ -7,7 +7,7 @@ P2 на этаже N2. Известно, что в доме M этажей и к
 * */
 
 
-package contestv1;
+package contestv1.hw1;
 
 import java.util.Scanner;
 

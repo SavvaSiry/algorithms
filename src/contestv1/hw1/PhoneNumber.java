@@ -11,7 +11,7 @@
 * */
 
 
-package contestv1;
+package contestv1.hw1;
 
 import java.util.Scanner;
 
