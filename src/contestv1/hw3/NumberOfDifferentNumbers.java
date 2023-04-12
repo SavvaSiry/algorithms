@@ -2,7 +2,6 @@
 * Дан список чисел, который может содержать до 100000 чисел. Определите, сколько в нем встречается различных чисел.
 * */
 
-
 package contestv1.hw3;
 
 import java.io.BufferedReader;
@@ -18,5 +17,6 @@ public class NumberOfDifferentNumbers {
         Set<Integer> set = new HashSet<>();
         Arrays.stream(reader.readLine().split(" ")).mapToInt(Integer::parseInt).forEach(set::add);
         System.out.println(set.size());
+        System.out.println(set.contains(12));
     }
 }
