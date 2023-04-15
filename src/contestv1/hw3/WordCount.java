@@ -1,3 +1,7 @@
+/*
+* Посчитать количество слов, через пробел
+* */
+
 package contestv1.hw3;
 
 import java.io.File;
