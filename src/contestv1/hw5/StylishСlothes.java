@@ -52,5 +52,4 @@ public class StylishСlothes {
         }
         return ints;
     }
-
 }
