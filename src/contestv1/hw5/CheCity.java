@@ -9,6 +9,7 @@
 
 package contestv1.hw5;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CheCity {
@@ -16,11 +17,34 @@ public class CheCity {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int r = scanner.nextInt();
-        int[] meter = new int[n];
+//        int[] meter = new int[n];
+        ArrayList<Integer> list = new ArrayList<>(n);
         for (int i = 0; i < n; i++) {
-            meter[i] = scanner.nextInt();
+            list.add(scanner.nextInt());
         }
-        System.out.println(findStatue(r, meter));
+//        System.out.println(findStatue(r, meter));
+        System.out.println(findStatueList(r, list));
+
+    }
+
+//    for l in range(n):
+//	while r < n and d[r] - d[l] <= r_dist:
+//		r += 1
+//	count += n - r #если ничего не найдено, то добавится 0
+//
+//  print(count)
+
+    private static long findStatueList(int range, ArrayList<Integer> list) {
+        int count = 0;
+        int r = 0;
+        int n = list.size();
+        for (int l = 0; l <= n; l++) {
+            while (r < n && list.get(l) - list.get(r) <= range) {
+                r += 1;
+            }
+            count += n - r;
+        }
+        return count;
     }
 
     public static long findStatue(int range, int[] meters) {

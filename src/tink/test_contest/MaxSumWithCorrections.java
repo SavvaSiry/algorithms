@@ -1,4 +1,4 @@
-package tink;
+package tink.test_contest;
 
 import java.util.*;
 
